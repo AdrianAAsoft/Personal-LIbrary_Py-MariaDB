@@ -5,6 +5,15 @@ Modificar la aplicación original de biblioteca personal para sustituir SQLite p
 1. Ingresar al sitio: [https://dev.mysql.com/downloads/installer/]
 2. Instalar
 3. Ejecutar instalador
+   
+## 🧪 Creacion de la base de datos
+- Abrir MySql Command Line Client
+- Colocar contraseña creada en la instalacion
+- Escribir el siguiente comando: "Create Database libreria"
+```bash
+Create Database libreria
+exit
+```
 
 ## 📌 Instalacion de libreria para el ambiente:
 
