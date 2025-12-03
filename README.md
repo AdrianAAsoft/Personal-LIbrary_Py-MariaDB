@@ -14,6 +14,15 @@ Modificar la aplicación original de biblioteca personal para sustituir SQLite p
 Create Database libreria
 exit
 ```
+## Recomendaciones
+- No colocar contraseña con @ ya que puede dar problemas en la conexión
+- Ejecutar el siguiente comando en la ventana de MySql Command Line Client ya que mantiene autentificacion diferente  
+```bash
+#Cambiar root por tu usuario si creaste uno diferente o si usaras el base puedes usar root y cambiar admin1234 por la contraseña que elegiras
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'admin1234'; 
+FLUSH PRIVILEGES;
+```
 
 ## 📌 Instalacion de libreria para el ambiente:
 
